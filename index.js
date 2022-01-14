@@ -1,11 +1,5 @@
-var myNodeList = document.getElementsByTagName("LI");
+const todoObjectList = [];
 
-var i;
+const todoListElement = document.querySelector('#myList')
 
-for (i = 0; i < myNodeList.length; i++) {
-    var span = document.createElement("SPAN");
-    var text = document.createTextNode("")
-    span.className = "close";
-    span.appendChild(txt);
-    myNodeList[i].appendChild(span);
-}
+document.querySelector("#add_button").addEventListener("click", addTodo);
