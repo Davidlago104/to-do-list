@@ -12,6 +12,14 @@ document.querySelector("#push").onclick = function (){
                 <i class="fa fa-trash" aria-hidden="true"></i>
             </button>
         </div>
-        `
+        `;
+
+        const currentTask = document.querySelectorAll(".delete");
+
+        for(let i = 0; i < currentTask.length; i++) {
+            currentTask[i].onclick = function() {
+                this.parentNode.remove();
+            }
+        }
     }
 }
