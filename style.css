@@ -82,6 +82,23 @@ body{
     box-shadow: 0 15px 30px rgba(163, 104, 104, 0.2)
 }
 
+.task span {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.task button {
+    background-color: magenta;
+    color: #fff;
+    height: 100%;
+    width: 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
 #tasks {
     background-color: #ffffff;
     padding: 30px 20px;
