@@ -40,7 +40,7 @@ body{
     font-size: 15px;
     border: 2px solid #ffffff;
     padding: 12px;
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: 500;
     position: relative;
     border-radius: 5px;
@@ -68,6 +68,18 @@ body{
     border: none;
     color: #fff;
     cursor: pointer;
+}
+
+.task {
+    background-color: ffffff;
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 5px solid #f8f8ff;
+    box-shadow: 0 15px 30px rgba(163, 104, 104, 0.2)
 }
 
 #tasks {
