@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+h1 {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: #ffff
+}
+
 body{
     height: 100vh;
     background: linear-gradient(
@@ -14,7 +21,6 @@ body{
 }
 
 .container {
-    border: 2px solid white;
     width: 50%;
     min-width: 500px;
     position: absolute;
