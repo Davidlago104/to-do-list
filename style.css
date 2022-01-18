@@ -79,13 +79,15 @@ body{
     align-items: center;
     justify-content: space-between;
     border-bottom: 5px solid #f8f8ff;
-    box-shadow: 0 15px 30px rgba(163, 104, 104, 0.2)
+    box-shadow: 0 15px 30px rgba(163, 104, 104, 0.2);
+    cursor: pointer;
 }
 
 .task span {
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
     font-weight: 500;
+
 }
 
 .task button {
@@ -97,6 +99,10 @@ body{
     border: none;
     cursor: pointer;
     outline: none;
+}
+
+.completed {
+    text-decoration: line-through;
 }
 
 #tasks {
